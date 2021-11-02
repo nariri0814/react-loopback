@@ -1,38 +1,30 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-ul {
+  background: #e3d5d5;
+  padding: 20px;
+  border: 1px dotted;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-li {
+  display: inline-block;
+  padding: 5px 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.review-wrap {
+  padding: 5px;
+  background: #ddd;
+  margin: 10px auto;
+  width: 300px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.review-item {
+  display: inline-block;
+  padding: 5px;
+}
+.cafe-name {
+  font-size: 18px;
+  font-weight: bold;
 }
